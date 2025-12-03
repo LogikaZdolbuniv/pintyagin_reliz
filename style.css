@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+h1 {
+    text-align: left;
+    font-size: 45px;
+}
+
+nav a{
+    float: right;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    margin: 13px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 0 0 rgb(170, 0, 0);
+}
+
+nav a:focus{
+    box-shadow: inset 0 5px 0 2px rgb(170, 0, 0);
+}
+
+header img {
+    width: 400px;
+}
+
+/* Картки */
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ttt {
+    width: 280px;
+    background-color: #f3f3f3;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ttt img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 4px solid red;
+}
+
+.ttt h2 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.ttt p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.tttttt {
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+
+/* Map */
+.map {
+    position: relative; 
+    width: 600px;
+    height: 450px;
+    margin: 30px auto;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.marker {
+    position: absolute; 
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Table */
+table{
+    margin: 30px auto;
+    border: 5px solid red;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+td{
+    border: 2px solid red;
+    padding: 8px 15px;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+footer p {
+    margin: 5px 0;
+}
